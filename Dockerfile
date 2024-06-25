@@ -20,4 +20,4 @@ COPY . /usr/src/app/
 EXPOSE 8000
 
 # Command to run the application
-CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:8000", "myproject.wsgi:application"]
+CMD ["gunicorn", "--workers", "3", "--bind", "0.0.0.0:8000", "core.wsgi:application"]
