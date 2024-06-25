@@ -14,5 +14,5 @@ Pra rodar a aplicacao:
 Instalei novos requirements?
 
 ```
-pip freeze requirements.txt
+pip freeze requirements.txt > requirements.txt
 ```
