@@ -11,6 +11,13 @@ Pra rodar a aplicacao:
     python manage.py runserver
 ```
 
+Se for o primeiro run de uma database, criar superuser:
+
+``` 
+python manage.py createsuperuser
+
+```
+
 Instalei novos requirements?
 
 ```
